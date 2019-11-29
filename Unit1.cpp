@@ -15,7 +15,7 @@ void createQrCode(TImage *image, String data);
 __fastcall TForm1::TForm1(TComponent* Owner)
         : TForm(Owner)
 {
-        String uri = "http://www.makinnet";
+        String uri = "http://www.makinnet.cn";
 
         createQrCode(Form1->Image1, uri);
 
